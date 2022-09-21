@@ -1,0 +1,36 @@
+*,::after , ::before{
+  margin: 0;
+  padding: 0;
+}
+.login{
+  background-color: rgb(13, 13, 32);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.login form{
+  width: 25%;
+  height: 12cm;
+  box-shadow: 0 0 7px rgb(47, 189, 255);
+  padding: 2cm;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.login form input{
+  margin-bottom: 1cm;
+  background-color: rgb(8, 11, 27);
+}
+.login form h1{
+  color: rgb(47, 189, 255);
+  text-align: center;
+  margin-bottom: 2cm;
+}
+.login form button{
+  background-color: rgb(47, 189, 255);
+  margin-left: 1.6cm;
+  display: flex;
+}
+

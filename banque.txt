@@ -1,0 +1,26 @@
+
+
+
+
+      CLIENT (Num_Compte , Nom , Solde)
+      VERSEMENT (Num_Vers , Num_Compte , Montant_versement,date_versement)
+      RETRAIT (Num_Retrait , Num_Compte,Num_Cheque , Montant_Retrait,date_retrait)
+
+
+      1) Ajout , suppression , Modification
+      2) Recherche de clients par n* compte ou nom ou adresse
+      3) Transfert d'une compte a une autre compte
+      4) Edition d'un etat des situations des clients tout en signalant qui'il y un decouverte 
+      si le montant total versement < montant total RETRAIT 
+      5) Eidition des mouvement bancaires d'un client 
+      6) Bilan mensuel et annuel , faisant , apparaitre les debits et crdit globaux
+      7) Generer un pdf pour le mouvement bancaire d'un client
+
+      ETAT DE SITUATION DE CLIENT (Num_Compte , Nom , Solde)
+
+      ETAT de mouvement bancaire d'un client
+            Num_Compte : ........
+            NOM : .............
+            Solde actuel : ........
+
+            [Num_Vers ou RETRAIT],[versement],[RETRAIT],[date]

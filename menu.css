@@ -1,0 +1,390 @@
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  background-color: rgb(7, 7, 24);
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 4cm;
+  float: right;
+}
+.one:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  background-color: rgb(135, 185, 226);
+}
+.two:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  background-color: rgb(135, 185, 226);
+}
+.three:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  background-color: rgb(135, 185, 226);
+}
+.one{
+  width: 5cm;
+  height: 5cm;
+  background-color: rgb(83, 199, 228);
+  border-radius: 16px;
+}
+.two{
+  width: 5cm;
+  height:8cm;
+  background-color: rgb(83, 199, 228);
+  border-radius: 16px;
+}
+.three{
+  width: 5cm;
+  height:5cm;
+  background-color: rgb(83, 199, 228);
+  border-radius: 16px;
+}
+.menu ul{
+  padding-top: 4cm;
+  animation: animate 1.5s;
+}
+.menu ul li{
+  display: inline-block;
+  margin-left: 0.5cm;
+}
+.menu h1{
+  color: white;
+  box-shadow: 0 0 7px rgb(21, 167, 204);
+  padding: 0.5cm;
+  width: 40%;
+  float: left;
+  margin-top: 6.5cm;
+  animation: animate1 1.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu h2{
+  padding-top: 1.5cm;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+@keyframes animate1 {
+  0%{
+    opacity: 0;
+    width: 30%;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0%{
+    opacity: 0;
+    margin-top: -4cm;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/*CLIENT */
+
+.client{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.client form{
+  width: 60%;
+  height: 66vh;
+  padding: 2cm;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(64, 191, 230);
+  text-align: center;
+  margin-left: 2cm;
+}
+.client button{
+  margin-left: 0.5cm;
+  padding: 0.6cm;
+}
+.client form input{
+  margin-bottom: 1cm;
+  padding: 0.5cm;
+  background-color: rgb(203, 205, 212);
+}
+.client form button{
+  text-align: center;
+  padding: 0.2cm;
+  color: rgb(44, 44, 31);
+  font-weight: bold;
+  margin-left: 0.5cm;
+  width: 4cm;
+}
+.client img{
+  border-radius: 50%;
+}
+
+/*VERSEMENT*/
+.versement{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.versement form{
+  width: 60%;
+  height: auto;
+  padding: 2cm;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(64, 191, 230);
+  text-align: center;
+  margin-left: 2cm;
+}
+.versement img{
+  border-radius: 50%;
+}
+.versement form input{
+  margin-top: 1cm;
+  padding: 0.3cm;
+  background-color: rgb(203, 205, 212);
+}
+.versement form button{
+  margin-top: 1cm;
+}
+.versement form h1{
+  color: white;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.versement button{
+  margin-left: 1cm;
+  margin-right: 1cm;
+  padding: 0.6cm;
+}
+
+/*retrait */ 
+.retrait{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.retrait form{
+  width: 60%;
+  height: auto;
+  padding: 1cm;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(64, 191, 230);
+  text-align: center;
+  margin-left: 2cm;
+}
+.retrait img{
+  border-radius: 50%;
+}
+.retrait form input{
+  margin-top: 1cm;
+  padding: 0.3cm;
+  background-color: rgb(203, 205, 212);
+}
+.retrait form button{
+  margin-top: 1cm;
+}
+.retrait form h1{
+  color: white;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.retrait button{
+  margin-left: 1cm;
+  padding: 0.4cm;
+  margin-right: 0.5cm;
+}
+.retrait form h3{
+  color: white;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*recherche client*/
+
+.rechercheCli{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  overflow: scroll;
+  padding-bottom: 2cm;
+}
+.rechercheCli header{
+  height: 10vh;
+  background-color: rgb(13, 87, 121);
+  width: 100%;
+  position: fixed;
+}
+.rechercheCli header h1{
+  float: left;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 0.5cm;
+  margin-left: 1cm;
+}
+.rechercheCli header form{
+  float: right;
+  padding-top: 0.5cm;
+  width: 13cm;
+  margin-right: 2cm;
+}
+.rechercheCli header form input{
+  float: left;
+  width: 10cm;
+}
+.rechercheCli header form button{
+  float: right;
+  margin-left: 0.3cm;
+  margin-top: -0.08cm;
+}
+.rechercheCli table td{
+  color: rgb(9, 13, 43);
+  padding-left: 5cm;
+  padding: 0.4cm;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8em;
+  background-color: white;
+}
+.rechercheCli table{
+  margin-top: 12vh;
+  border-radius: 15px;
+  background-color: rgb(12, 112, 158);
+  width: 90%;
+  margin-left: 2cm;
+}
+.rechercheCli table tr{
+  padding: 0.3cm;
+  background-color: azure;
+}
+.rechercheCli table button{
+  font-size: 0.8em;
+}
+.rechercheCli header button{
+  margin-top: 0.5cm;
+  margin-left: 1cm;
+}
+
+
+/* TRANSFERT */
+.transfert{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  padding-bottom: 2cm;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 2cm;
+}
+.transfert form{
+  width: 50%;
+  height: auto;
+  padding: 1cm;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(64, 191, 230);
+  text-align: center;
+  margin-left: 2cm;
+}
+.transfert form input{
+  margin-top: 0.5cm;
+  padding: 0.3cm;
+  background-color: rgb(203, 205, 212);
+}
+.transfert form button{
+  margin-top: 1cm;
+}
+.transfert img{
+  border-radius: 50%;
+}
+.transfert button{
+  margin-left: 1cm;
+  padding: 0.4cm;
+}
+.transfert h1{
+  color: white;
+  margin-left: 0.6cm;
+  margin-top: -12cm;
+  text-align: center;
+  margin-left: -7cm;
+  margin-right: 2cm;
+}
+
+/* ETAT DE SITUATION*/
+.situation{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.situation form{
+  width: 60%;
+  height: 18cm;
+  padding: 2cm;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(64, 191, 230);
+  text-align: center;
+  margin-left: 2cm;
+  overflow: scroll;
+}
+.situation h1{
+  color: white;
+  text-align: center;
+  margin-right: 2cm;
+  margin-bottom: 4cm;
+}
+.situation form table{
+  color: white;
+  margin-top: 1cm;
+}
+
+/* BANCAIRE*/
+.situation1{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 32, 49);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.situation1 form{
+  width: 60%;
+  height: 18cm;
+  padding: 2cm;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(64, 191, 230);
+  text-align: center;
+  margin-left: 2cm;
+  overflow: scroll;
+}
+.situation1 h1{
+  color: white;
+  text-align: center;
+  margin-right: 2cm;
+  margin-bottom: 4cm;
+}
+.situation1 form table{
+  color: white;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+.situation1 form h3{
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+}
